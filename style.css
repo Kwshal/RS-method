@@ -1,0 +1,68 @@
+
+
+* {
+     /* margin: 0;
+     padding: 0; */
+     box-sizing: border-box;
+}
+
+
+.system {
+     display: flex;
+     position: relative;
+     border: 1px solid #000;
+     width: fit-content;
+     align-items: center;
+     border-radius: 5px;
+     padding-right: 10px;
+     background-color: rgb(255, 237, 205);
+}
+
+.btn {
+     /* position: absolute; */
+     right: 0;
+     height: auto;
+     background-color: transparent;
+     /* background-color: #a73131; */
+     border: none;
+     aspect-ratio: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* position: relative; */
+}
+
+.x {
+     height: 15px;
+     width: 1.5px;
+     /* border-radius: 2px; */
+     background-color: #3d3d3d;
+     position: absolute;
+     
+}
+
+.btn:hover > .x {
+     background-color: #000;
+}
+
+
+.x:first-child {
+     transform: rotate(45deg);
+}
+.x:last-child {
+     transform: rotate(-45deg);
+}
+
+.n {
+     border-radius: 5px;
+     height: 30px;
+     width: 200px;
+     border: none;
+     outline: none;
+     background-color: transparent;
+     padding-left: 10px;
+}
+
+#showSteps {
+     display: none;
+}

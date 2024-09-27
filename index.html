@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>RepSub</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <div class="container">
+          <h3>Repeated Subtraction method</h3>
+
+          <div class="system">
+               <input oninput="checkPerfectSquare()" type="text" id="n" class="n" placeholder="Enter a number">
+               <button id="btn" class="btn" onclick="clearSystem()">
+                    <span class="x"></span>
+                    <span class="x"></span>
+               </button>
+          </div>
+
+               <p id="output"></p>
+               <p id="steps"></p>
+          <button id="showSteps" onclick="showStepsFunc()">Show Steps</button>
+     </div>
+
+
+     <script src="script.js"></script>
+</body>
+
+</html>
