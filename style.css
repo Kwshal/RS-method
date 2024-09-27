@@ -5,13 +5,12 @@
      padding: 0; */
      box-sizing: border-box;
 }
-
-.container {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: clamp(300px, 90%, 1000px);
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: rgb(255, 237, 205);
 }
 .system {
      display: flex;
